@@ -66,7 +66,7 @@ const Todo = () => {
 
   return (
     <div className="my-auto mt-6 container">
-      <h1>Let's do it!</h1>
+      <h1>Lets do it!</h1>
       <form className="" onSubmit={addHandleTodo}>
         <input
           type="text"
@@ -89,7 +89,7 @@ const Todo = () => {
           deleteTodo={deleteTodo}
         />
       ) : (
-        <h2>You don't have todos! Please, add your todo!</h2>
+        <h2>You don not have todos! Please, add your todo!</h2>
       )}
     </div>
   );
